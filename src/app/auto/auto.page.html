@@ -1,0 +1,56 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Programar viaje</ion-title>
+    <ion-buttons slot="end">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-item class="input-item">
+    <ion-label position="floating">Nombre</ion-label>
+    <ion-input type="text" placeholder="NOMBRE"></ion-input>
+    <ion-icon name="person" slot="start"></ion-icon>
+  </ion-item>
+
+  <ion-item class="input-item">
+    <ion-label position="floating">Tarifa</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+  <ion-item class="input-item">
+    <ion-label position="floating">Modelo Auto</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+  <ion-item class="input-item">
+    <ion-label position="floating">Horario</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+  <ion-item class="input-item">
+    <ion-label position="floating">Origen</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+  <ion-item class="input-item">
+    <ion-label position="floating">Destino</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+  <ion-button expand="full" color="danger">Programar</ion-button>
+</ion-content>
+
+<ion-footer>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="vehiculos">
+      <ion-icon name="car-outline"></ion-icon>
+      <ion-label>vehículos disponibles</ion-label>
+    </ion-tab-button>
+    <ion-tab-button tab="programar">
+      <ion-icon name="calendar-outline"></ion-icon>
+      <ion-label>programar viaje</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-footer>

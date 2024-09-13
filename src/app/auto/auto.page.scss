@@ -1,0 +1,29 @@
+ion-content {
+    --background: #5f536a5b;  /* Fondo azul claro */
+  
+    .input-item {
+      --background: #ffffff54;
+      --border-color: #1A237E;
+      margin: 15px 0;
+      border-radius: 10px;
+    }
+  
+    ion-input {
+      font-size: 1rem;
+    }
+  
+    ion-button {
+      margin-top: 20px;
+      background-color: #F50057;  /* Color rosa */
+      --color: rgba(255, 255, 255, 0.521);
+      border-radius: 10px;
+    }
+  }
+  
+  ion-footer {
+    background-color: rgba(255, 255, 255, 0.555);
+    ion-tab-button {
+      --color-selected: #F50057;
+    }
+  }
+  

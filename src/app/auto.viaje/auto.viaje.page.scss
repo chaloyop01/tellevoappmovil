@@ -1,0 +1,34 @@
+ion-content {
+    --background: #E0F7FA;  /* Fondo azul claro */
+  
+    h2 {
+      text-align: center;
+      font-size: 1.8rem;
+      color: #1A237E;  /* Color azul oscuro */
+      margin-bottom: 20px;
+    }
+  
+    ion-list {
+      ion-item {
+        --background: rgba(255, 255, 255, 0.342);
+        --border-color: #1A237E;
+        border-radius: 10px;
+        margin-bottom: 10px;
+      }
+    }
+  
+    ion-button {
+      margin-top: 20px;
+      background-color: #F50057;  /* Color rosa */
+      --color: rgba(255, 255, 255, 0.37);
+      border-radius: 10px;
+    }
+  }
+  
+  ion-footer {
+    background-color: rgba(255, 255, 255, 0.438);
+    ion-tab-button {
+      --color-selected: #F50057;
+    }
+  }
+  
